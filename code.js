@@ -1,4 +1,4 @@
-function minhaFuncao() {
+function myFunction() {
     var side = document.getElementById("sideBar");
 
     // Altera várias propriedades de CSS do elemento
@@ -10,7 +10,7 @@ function minhaFuncao() {
 
 var side = document.getElementById("headerSideBar");
 
-side.onclick = this.minhaFuncao;
+side.onclick = this.myFunction;
 
 function abraAba () {
     var side = document.getElementById("sideBar");
